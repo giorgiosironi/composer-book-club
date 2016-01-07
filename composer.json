@@ -1,0 +1,43 @@
+{
+    "name": "giorgiosironi/composer-example-require",
+    "description": "Showing how to install dependencies with Composer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giorgio Sironi",
+            "email": "giorgio.sironi@onebip.com"
+        }
+    ],
+    "keywords": [
+        "example", "composer"
+    ],
+    "support": {
+        "email": "aurelien.lair@onebip.com"
+    },
+    "bin": ["bin/example"],
+    "__comment": "dependencies",
+    "require": {
+        "monolog/monolog": "~1.17",
+        "onebip/onebip-libraries": "*"
+    },
+    "require-dev": {
+        "giorgiosironi/eris": "0.5.*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:onebip/onebip-libraries.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "__comment": "autoload",
+    "autoload": {
+        "psr-0": {
+          "Acme" : ["src/", "spec/"]
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    }
+}
