@@ -9,3 +9,5 @@ Topics:
 - install this package manually
 - publish it on Packagist
 - install it again with Packagist
+
+Published on Packagist
