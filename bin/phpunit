@@ -1,0 +1,3 @@
+#!/usr/bin/env php
+<?php
+echo "Fake PHPUnit", PHP_EOL;

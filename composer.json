@@ -14,7 +14,7 @@
     "support": {
         "email": "aurelien.lair@onebip.com"
     },
-    "bin": ["bin/example"],
+    "bin": ["bin/example", "bin/phpunit"],
     "__comment": "dependencies",
     "require": {
         "monolog/monolog": "~1.17",
